@@ -12,6 +12,30 @@ namespace Day_9
 
         public int skaitlis;
 
+        private int Privatais1;
+
+        public int Get()
+        {
+            return Privatais1;
+
+        }
+
+        public void Set(int value)
+        {
+            if (value != 0)
+
+            {
+                Privatais1 = value;
+            }
+
+            else
+
+            {
+
+                Privatais1 = 1;
+            }
+
+        }
         public int Saskaitisana(int a, int b)
         {
             return a + b;
